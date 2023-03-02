@@ -19,7 +19,7 @@
     "php" : ">=7.4",
     "ext-json": "*",
     "thecodingmachine/graphqlite" : "^6.0",
-    "thecodingmachine/graphqlite-symfony-validator-bridge" : "^5.0",
+    "thecodingmachine/graphqlite-symfony-validator-bridge" : "dev-master",
     "symfony/framework-bundle": "^5.4 || ^6",
     "symfony/validator": "^5.4 || ^6",
     "symfony/translation": "^5.4 || ^6",
