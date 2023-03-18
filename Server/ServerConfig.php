@@ -24,7 +24,7 @@ class ServerConfig extends \GraphQL\Server\ServerConfig
      *
      * @api
      */
-    public function setValidationRules($validationRules)
+    public function setValidationRules($validationRules): self
     {
         parent::setValidationRules(
             function (OperationParams $params, DocumentNode $doc, string $operationType) use ($validationRules): array {
